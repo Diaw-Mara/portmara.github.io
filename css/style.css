@@ -1,0 +1,125 @@
+/*@charset "UTF-8";*/
+
+/* Nav .bg-transparent.scrolled*/
+.bg-dak{
+  background: transparent  !important;
+}
+
+.bg-dak.scrolled{
+  background: #999 !important;
+  opacity: 0.7;
+}
+
+
+
+/* Body */
+.backgroung1{
+	background-image: url("../img/background1.png");
+	height: 700px;
+	width: 100%;
+	opacity: 1; /* => Permet de rendre transparent l'Image*/
+}
+
+.backgroung2{
+	background-image: url("../img/background2.png");
+	height: 700px;
+	width: 100%;
+}
+
+.part3raw5{
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(250, 250, 250);
+  border-radius: 50%;
+  background-color: rgb(254, 209, 54);
+  position: absolute;
+  top: 300px;
+  width: 183px;
+  height: 183px;
+  z-index: 233;
+  
+}
+
+.raw5_1{
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  z-index: 131;
+}
+
+.test{
+  background-color: gold;
+}
+
+/*--------- Form ------------*/
+::placeholder{
+  color: #999 !important;
+}
+
+/*--------- Icone Reseau Sociaux
+.social-icons a
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons
+{
+    display:flex;
+}
+
+.social-icons i
+{
+    color:#2b2b2b;
+}
+.social-icons a:hover,
+.a-social-b a:hover
+{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a
+{
+    color: #000000;
+    transition: all ease 0.5s;
+} - ------------*/
+.social-attached
+{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.social-attached a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.social-attached i
+{
+    color: #2b2b2b;
+    font-size: 20px;
+}
